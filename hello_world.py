@@ -15,12 +15,24 @@ def user_choice(num):
    else:
       return "Please enter the correct choice"
 
-
 def display_signup_page():
-	print("Singup Page")
+	print("|----------------------------------------------------|")
+	print("|                   Signup Page                      |")
+	print("|----------------------------------------------------|")
+
+	username = input("Enter Username- ")
+	password = input("Enter Password- ")
+	print("Successfully Signed Up!", username)
 
 def display_signin_page():
-	print("SignIn Page")
+	
+	print("|----------------------------------------------------|")
+	print("|                   Signin Page                      |")
+	print("|----------------------------------------------------|")
+
+	username = input("Enter Username- ")
+	password = input("Enter Password- ")
+	print("Successfully Signed In with ", username)
 
 if __name__ == "__main__":
     print_home_page()
