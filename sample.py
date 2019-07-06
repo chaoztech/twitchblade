@@ -41,6 +41,7 @@ def display_signin_page():
 	print("|----------------------------------------------------|")
 	print("|                   Signin Page                      |")
 	print("|----------------------------------------------------|")
+	print("|-----------------------------------------------------|")
 
 	username = input("Enter Username- ")
 	password = input("Enter Password- ")
